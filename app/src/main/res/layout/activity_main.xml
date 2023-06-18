@@ -1,17 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:columnCount="3"
-        android:rowCount="3">
-        
-    </GridLayout>
+    <!--    For vertical line-->
+    <View
+        android:layout_width="5dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="100dp"
+        android:background="#1C0101" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="5dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="200dp"
+        android:background="#1C0101" />
+
+    <!--    For horizontal line-->
+    <View
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="#1C0101" />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="200dp"
+        android:background="#1C0101" />
+
+    <!--    First ROW design-->
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <!--Second ROW design-->
+    <Button
+        android:id="@+id/btn21"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="115dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="115dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="115dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <!--Third ROW design-->
+    <Button
+        android:id="@+id/btn31"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="215dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn32"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="215dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn33"
+        android:layout_width="75dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="215dp"
+        android:background="@color/btn"
+        android:onClick="checkBtn"
+        android:text="@string/btnTxt"
+        android:textColor="@color/black"
+        
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TicTacToe</string>
+    <string name="btnTxt"><b>O</b></string>
 </resources>
