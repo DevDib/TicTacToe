@@ -42,7 +42,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -55,7 +55,7 @@
         android:layout_marginLeft="115dp"
         android:layout_marginTop="15dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -68,7 +68,7 @@
         android:layout_marginLeft="215dp"
         android:layout_marginTop="15dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -82,7 +82,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="115dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -95,7 +95,7 @@
         android:layout_marginLeft="115dp"
         android:layout_marginTop="115dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -108,7 +108,7 @@
         android:layout_marginLeft="215dp"
         android:layout_marginTop="115dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -122,7 +122,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="215dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -135,7 +135,7 @@
         android:layout_marginLeft="115dp"
         android:layout_marginTop="215dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
@@ -148,7 +148,7 @@
         android:layout_marginLeft="215dp"
         android:layout_marginTop="215dp"
         android:background="@color/btn"
-        android:onClick="checkBtn"
+        android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
         
