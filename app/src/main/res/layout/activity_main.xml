@@ -45,7 +45,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <Button
@@ -58,7 +58,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <Button
@@ -71,7 +71,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <!--Second ROW design-->
@@ -85,7 +85,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <Button
@@ -98,7 +98,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <Button
@@ -111,7 +111,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <!--Third ROW design-->
@@ -125,7 +125,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <Button
@@ -138,7 +138,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
     <Button
@@ -151,7 +151,7 @@
         android:onClick="checkAction"
         android:text="@string/btnTxt"
         android:textColor="@color/black"
-        
+
         android:textSize="20sp" />
 
 </RelativeLayout>
