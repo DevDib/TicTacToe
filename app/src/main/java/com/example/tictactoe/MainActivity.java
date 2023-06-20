@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             if (btn1.equals(btn2) && btn2.equals(btn3) && !btn1.equals("")) {
                 Toast.makeText(this, btn1 + " is winner", Toast.LENGTH_SHORT).show();
                 restartGame();
-            } else if (btn4.equals(btn5) && btn5.equals(btn6) && !btn1.equals("")) {
+            } else if (btn4.equals(btn5) && btn5.equals(btn6) && !btn4.equals("")) {
                 Toast.makeText(this, btn4 + " is winner", Toast.LENGTH_SHORT).show();
                 restartGame();
             } else if (btn7.equals(btn8) && btn8.equals(btn9) && !btn7.equals("")) {
@@ -89,7 +89,9 @@ public class MainActivity extends AppCompatActivity {
             } else if (btn3.equals(btn5) && btn5.equals(btn7) && !btn3.equals("")) {
                 Toast.makeText(this, btn3 + " is winner", Toast.LENGTH_SHORT).show();
                 restartGame();
-            } else if (count == 9) {
+            }
+            //if 9 move is done then game is draw and over
+            else if (count == 9) {
                 Toast.makeText(this, "Match is draw", Toast.LENGTH_SHORT).show();
                 restartGame();
             }
